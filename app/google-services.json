@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894155687422",
+    "firebase_url": "https://medi-friend.firebaseio.com",
+    "project_id": "medi-friend",
+    "storage_bucket": "medi-friend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894155687422:android:8f5b1f0b0f1bb091",
+        "android_client_info": {
+          "package_name": "com.example.rishabhvishwakarma.medifriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894155687422-eb2k22lr65815oi30cd8aqln4uanvfji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishabhvishwakarma.medifriend",
+            "certificate_hash": "b19953f510d050d48dea2efe3285aa6dc501d952"
+          }
+        },
+        {
+          "client_id": "894155687422-bac7iatvtnb4g1be15pouuarevu55rs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRvEj5GUf-o7ti3M6Y6AtB5DMPhfg_sUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894155687422-bac7iatvtnb4g1be15pouuarevu55rs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

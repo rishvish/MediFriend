@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/symptom_fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="?attr/actionBarSize"
+    android:background="@drawable/gradient"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:id="@+id/symptom_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/symptom_header"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toStartOf="@+id/space"
+                android:layout_toLeftOf="@+id/space"
+                app:mrl_rippleColor="@color/colorDisabled"
+                app:mrl_rippleDelayClick="false"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleRoundedCorners="2dp">
+
+                <CheckedTextView
+                    android:id="@+id/radio_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/checked_button"
+                    android:checked="false"
+                    android:drawableStart="@drawable/ic_masculine"
+                    android:drawableLeft="@drawable/ic_masculine"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:text="@string/male"
+                    android:textAlignment="center" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toEndOf="@+id/space"
+                android:layout_toRightOf="@+id/space"
+                app:mrl_rippleColor="@color/colorDisabled"
+                app:mrl_rippleDelayClick="false"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleRoundedCorners="2dp">
+
+                <CheckedTextView
+                    android:id="@+id/radio_female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/checked_button"
+                    android:checked="false"
+                    android:drawableStart="@drawable/ic_feminine"
+                    android:drawableLeft="@drawable/ic_feminine"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:text="@string/female"
+                    android:textAlignment="center" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </RelativeLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:mrl_rippleColor="@color/colorDisabled"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true"
+            app:mrl_rippleRoundedCorners="2dp">
+
+            <Spinner
+                android:id="@+id/selected_body_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_theme"
+                android:entries="@array/body_parts"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textAlignment="center" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:mrl_rippleColor="@color/colorDisabled"
+            app:mrl_rippleDelayClick="false"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleOverlay="true"
+            app:mrl_rippleRoundedCorners="2dp">
+
+            <Spinner
+                android:id="@+id/selected_body_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_theme"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:visibility="invisible" />
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/or_call_emergency_services"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/call_108"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_call_emergency_services"
+            app:backgroundTint="@color/colorSecondary"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_call_emergency_services"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+</ScrollView>

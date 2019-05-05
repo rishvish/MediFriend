@@ -1,0 +1,1370 @@
+<resources>
+    <string name="app_name">MediFriend</string>
+    <string name="Sign_Out_Button">Sign Out</string>
+    <string name="Symptoms_Button">Check Symptoms</string>
+    <string name="Conditions_Button">Check Conditions</string>
+    <string name="Scan_Button">Cancer Scanner</string>
+    <string name="First_Aid_Button">First Aid</string>
+    <string name="Reminder_Button">Reminders</string>
+    <string name="Reports_Button">Manage Reports</string>
+    <string name="Reminder_Text">Keep yourself and loved ones safe and never forget to take your medications again.</string>
+    <string name="Alarm_button_text">Today\'s Reminders</string>
+    <string name="Reminders_button_text">My Reminders</string>
+    <string name="Add_button_text">Add Reminders</string>
+    <string name="from_date">From Date</string>
+    <string name="pref_enable_Vibration_key" translatable="false">enable_Vibration</string>
+    <string name="pref_enable_Vibration_label">Enable Vibration</string>
+    <string name="pref_enable_Vibration_true">Enabled</string>
+    <string name="pref_enable_Vibration_false">Not Enabled</string>
+    <string name="pref_enable_Vibration_default" translatable="false">true</string>
+    <string name="Delete_Reports_button_text">Delete Reports</string>
+    <string name="Reports_button_text">Show Reports</string>
+    <string name="Add_Reports_button_text">Add Reports</string>
+    <string name="Choose_File_Button">Choose File</string>
+    <string name="Choose_File_Hint">Enter file name</string>
+    <string name="Show_Uploads_Textview">Show Uploads</string>
+    <string name="symptom">Symptoms</string>
+    <string name="hospital">Hospital details</string>
+    <string name="about">About</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="symptom_header">Check yourself\nBefore you wreck yourself</string>
+    <string-array name="body_parts">
+        <item>Concerned body area</item>
+        <item>Head area</item>
+        <item>Chest area</item>
+        <item>Abdomen</item>
+        <item>Back area</item>
+        <item>Pelvic area</item>
+        <item>Arm</item>
+        <item>Legs</item>
+    </string-array>
+    <string-array name="head_area">
+        <item>Select body part from head area</item>
+        <item>Head</item>
+        <item>Eyes</item>
+        <item>Nose</item>
+        <item>Face</item>
+        <item>Ears</item>
+        <item>Mouth</item>
+        <item>Jaw</item>
+        <item>Neck</item>
+    </string-array>
+    <string-array name="chest_area">
+        <item>Select body part from chest area</item>
+        <item>Chest</item>
+        <item>Side of chest</item>
+        <item>Sternum</item>
+    </string-array>
+    <string-array name="abdomen">
+        <item>Select body part from abdomen</item>
+        <item>Upper abdomen</item>
+        <item>Lower abdomen</item>
+    </string-array>
+    <string-array name="back_area">
+        <item>Select body part from back area</item>
+        <item>Back</item>
+        <item>Upper spine</item>
+        <item>Lower spine</item>
+    </string-array>
+    <string-array name="pelvic">
+        <item>Select body part from pelvic area</item>
+        <item>Pelvis</item>
+        <item>Genitals</item>
+        <item>Buttock</item>
+        <item>Hip</item>
+        <item>Groin</item>
+    </string-array>
+    <string-array name="arm">
+        <item>Select body part from arm</item>
+        <item>Shoulder</item>
+        <item>Armpit</item>
+        <item>Upper arm</item>
+        <item>Elbow</item>
+        <item>Fore arm</item>
+        <item>Wrist</item>
+        <item>Hand</item>
+        <item>Fingers</item>
+    </string-array>
+    <string-array name="legs">
+        <item>Select body part from legs</item>
+        <item>Thigh</item>
+        <item>Hamstring</item>
+        <item>Knee</item>
+        <item>Back of knee</item>
+        <item>Shin</item>
+        <item>Calf</item>
+        <item>Ankle</item>
+        <item>Foot</item>
+        <item>Toes</item>
+        <item>Sole</item>
+    </string-array>
+    <!--<string-array name="default_selection">-->
+    <!--<item>Concerned body part</item>-->
+    <!--</string-array>-->
+
+    <string-array name="first_aid">
+        <item>Abdominal pain in adults</item>
+        <item>Abdominal pain in children</item>
+        <item>Acetaminophen (Tylenol) poisoning</item>
+        <item>Alcohol intoxication</item>
+        <item>Allergic reaction</item>
+        <item>Amputation (Accidental)</item>
+        <item>Angina Pectoris</item>
+        <item>Animal bites</item>
+        <item>Ankle fracture</item>
+        <item>Ankle sprain</item>
+        <item>Anthrax</item>
+        <item>Aspirin poisoning</item>
+        <item>Asthma attack in adults</item>
+        <item>Asthma attack in children</item>
+        <item>Asthma in pregnancy</item>
+        <item>Asthma, exercise-induced</item>
+        <item>Battery ingestion</item>
+        <item>Black eye</item>
+        <item>Black widow spider bite</item>
+        <item>Bleeding - cuts or wounds</item>
+        <item>Bleeding during pregnancy</item>
+        <item>Bleeding under a nail</item>
+        <item>Bleeding in the eye</item>
+        <item>Blisters</item>
+        <item>Blood in urine</item>
+        <item>Bloody stools in children</item>
+        <item>Blue lips in children</item>
+        <item>Breathing problems in children</item>
+        <item>Broken arm in adults</item>
+        <item>Broken arm in children</item>
+        <item>Broken collarbone</item>
+        <item>Broken elbow</item>
+        <item>Broken finger in adults</item>
+        <item>Broken finger in children</item>
+        <item>Broken foot</item>
+        <item>Broken hand</item>
+        <item>Broken hip</item>
+        <item>Broken jaw</item>
+        <item>Broken leg</item>
+        <item>Broken nose</item>
+        <item>Broken shoulder blade</item>
+        <item>Broken toe</item>
+        <item>Broken or knocked out teeth</item>
+        <item>Brown recluse spider bite</item>
+        <item>Bruises in adults</item>
+        <item>Bruises in children</item>
+        <item>Burns in adults</item>
+        <item>Burns and scalds in children</item>
+        <item>CPR for adults</item>
+        <item>CPR for children</item>
+        <item>Carbon monoxide poisoning</item>
+        <item>Catfish sting</item>
+        <item>Chemical burn</item>
+        <item>Chemical eye burn</item>
+        <item>Chest injury</item>
+        <item>Chest pain</item>
+        <item>Choking in adults</item>
+        <item>Choking in children</item>
+        <item>Cold in children</item>
+        <item>Concussion</item>
+        <item>Congestion or stuffy nose in children</item>
+        <item>Constipation in children</item>
+        <item>Convulsions in children</item>
+        <item>Corneal abrasion</item>
+        <item>Corneal ulcer</item>
+        <item>Coughs in children</item>
+        <item>Crabs</item>
+        <item>Cradle cap in children</item>
+        <item>Crying and colic in babies</item>
+        <item>Cuts and bleeding in children</item>
+        <item>Cuts or lacerations</item>
+        <item>Cyanide poisoning</item>
+        <item>Dehydration in adults</item>
+        <item>Dehydration in children</item>
+        <item>Diaper rash</item>
+        <item>Diarrhea</item>
+        <item>Diarrhea in children</item>
+        <item>Dizziness</item>
+        <item>Drowning</item>
+        <item>Drowning in children</item>
+        <item>Drug allergy</item>
+        <item>Drug overdose</item>
+        <item>Ear - foreign body</item>
+        <item>Ear infections in children</item>
+        <item>Ear pain - diving</item>
+        <item>Eczema in infants</item>
+        <item>Elbow dislocation</item>
+        <item>Electric shock</item>
+        <item>Electric shock in children</item>
+        <item>Eye burns/Corneal burns</item>
+        <item>Eye - foreign object</item>
+        <item>Eye injuries</item>
+        <item>Eye injuries in children</item>
+        <item>Eyelid inflammation</item>
+        <item>Facial fracture</item>
+        <item>Fainting</item>
+        <item>Fever in adults</item>
+        <item>Fever in children</item>
+        <item>Finger dislocation</item>
+        <item>Finger injuries</item>
+        <item>First aid kits</item>
+        <item>Fishhook injuries</item>
+        <item>Flu (influenza) in children</item>
+        <item>Food poisoning</item>
+        <item>Frostbite</item>
+        <item>Gas pain in children</item>
+        <item>Gastroenteritis</item>
+        <item>Hand injury</item>
+        <item>Head injuries in children</item>
+        <item>Head injury</item>
+        <item>Headache</item>
+        <item>Heart attack</item>
+        <item>Heat Exhaustion</item>
+        <item>Heat rash in children</item>
+        <item>Heat stroke</item>
+        <item>Hiccups</item>
+        <item>Hives and angioedema</item>
+        <item>Hives in children</item>
+        <item>Human bites</item>
+        <item>Hyperventilation</item>
+        <item>Hypothermia</item>
+        <item>Inability to urinate</item>
+        <item>Insect bites/stings in children</item>
+        <item>Insect sting allergy</item>
+        <item>Insulin reaction</item>
+        <item>Iron poisoning</item>
+        <item>Jaundice in newborns</item>
+        <item>Jellyfish stings</item>
+        <item>Knee dislocation</item>
+        <item>Knee injury</item>
+        <item>Labor signs</item>
+        <item>Lice</item>
+        <item>Lightning strike</item>
+        <item>Low blood sugar</item>
+        <item>Migraine headache</item>
+        <item>Migraine headache in children</item>
+        <item>Mini stroke (Transient Ischemic Attack)</item>
+        <item>Miscarriage</item>
+        <item>Mountain sickness</item>
+        <item>Muscle strain</item>
+        <item>Nail infection (paronychia)</item>
+        <item>Nail injuries</item>
+        <item>Neck Strain</item>
+        <item>Nose - foreign body</item>
+        <item>Nosebleeds</item>
+        <item>Nursemaid elbow</item>
+        <item>Orchitis (Inflammation of the Testicle)</item>
+        <item>Palpitations</item>
+        <item>Panic attacks</item>
+        <item>Plant allergy</item>
+        <item>Poisoning</item>
+        <item>Poisoning in children</item>
+        <item>Puncture wound</item>
+        <item>Rabies</item>
+        <item>Rape/Sexual assault</item>
+        <item>Rashes in children</item>
+        <item>Rectal bleeding</item>
+        <item>Rectal - foreign object</item>
+        <item>Rectal pain</item>
+        <item>Reflux in children</item>
+        <item>Ricin poisoning</item>
+        <item>Ruptured tendon</item>
+        <item>Seizures emergencies</item>
+        <item>Seizures in children</item>
+        <item>Severe allergic reaction</item>
+        <item>Shark bite</item>
+        <item>Shock</item>
+        <item>Shoulder dislocation</item>
+        <item>Shoulder separation</item>
+        <item>Shoulder and neck pain</item>
+        <item>Skier\'s thumb</item>
+        <item>Slipped disk</item>
+        <item>Smoke inhalation</item>
+        <item>Snakebite</item>
+        <item>Splinters</item>
+        <item>Sprains and strains</item>
+        <item>Stringray injury</item>
+        <item>Stomachache and nausea in children</item>
+        <item>Stroke</item>
+        <item>Stye</item>
+        <item>Suicidal thoughts</item>
+        <item>Sunburn</item>
+        <item>Swallowed object</item>
+        <item>Tailbone injury</item>
+        <item>Teething pain</item>
+        <item>Testicular pain</item>
+        <item>Tetanus</item>
+        <item>The bends</item>
+        <item>Thermal burns</item>
+        <item>Ticks</item>
+        <item>Toothache</item>
+        <item>Toxic shock syndrome</item>
+        <item>Traveler\'s diarrhea</item>
+        <item>Using an Automated External Defibrillator</item>
+        <item>Vaginal bleeding</item>
+        <item>Vaginal - foreign body</item>
+        <item>Vertigo</item>
+        <item>Vomiting during pregnancy</item>
+        <item>Vomiting and nausea</item>
+        <item>Vomiting or spitting up in children</item>
+        <item>Whiplash</item>
+        <item>Wrist injury</item>
+    </string-array>
+
+    <string-array name="medicines">
+        <item>Abilify</item>
+        <item>Acetaminophen</item>
+        <item>Acetaminophen and Hydrocodone</item>
+        <item>Actos</item>
+        <item>Acyclovir</item>
+        <item>Adderall</item>
+        <item>Advair Diskus</item>
+        <item>Advil</item>
+        <item>Albuterol</item>
+        <item>Aldactone</item>
+        <item>Alendronate</item>
+        <item>Aleve</item>
+        <item>Allegra</item>
+        <item>Allopurinol</item>
+        <item>Alprazolam</item>
+        <item>Amantadine</item>
+        <item>Amaryl</item>
+        <item>Ambien</item>
+        <item>Amiodarone</item>
+        <item>Amitiza</item>
+        <item>Amitriptyline</item>
+        <item>Amlodipine</item>
+        <item>Amlodipine Besylate</item>
+        <item>Amoxicillin</item>
+        <item>Amoxicillin and Clavulanate</item>
+        <item>Anastrozole</item>
+        <item>Apixaban</item>
+        <item>Aricept</item>
+        <item>Aripiprazole</item>
+        <item>Aspir 81</item>
+        <item>Aspirin</item>
+        <item>Atarax</item>
+        <item>Atenolol</item>
+        <item>Ativan</item>
+        <item>Atorvastatin</item>
+        <item>Atropine</item>
+        <item>Augmentin</item>
+        <item>Azathioprine</item>
+        <item>Azelastine</item>
+        <item>Azithromycin</item>
+        <item>Bacitracin</item>
+        <item>Baclofen</item>
+        <item>Bactrim</item>
+        <item>Bactrim DS</item>
+        <item>Bactroban</item>
+        <item>Basaglar</item>
+        <item>Belbuca</item>
+        <item>Belsomra</item>
+        <item>Benadryl</item>
+        <item>Benazepril</item>
+        <item>Benicar</item>
+        <item>Bentyl</item>
+        <item>Benzonatate</item>
+        <item>Benztropine</item>
+        <item>Betamethasone</item>
+        <item>Betamethasone and clotrimazole topical</item>
+        <item>Bethanechol</item>
+        <item>Biaxin</item>
+        <item>Bicalutamide</item>
+        <item>Biotin</item>
+        <item>Bisacodyl</item>
+        <item>Bisoprolol</item>
+        <item>Boniva</item>
+        <item>Botox</item>
+        <item>Breo Ellipta</item>
+        <item>Brilinta</item>
+        <item>Brimonidine</item>
+        <item>Bromfed DM</item>
+        <item>Brovana</item>
+        <item>Budesonide</item>
+        <item>Bumetanide</item>
+        <item>Bumex</item>
+        <item>Buprenorphine</item>
+        <item>Bupropion</item>
+        <item>Buspar</item>
+        <item>Buspirone</item>
+        <item>Butrans</item>
+        <item>Bydureon</item>
+        <item>Byetta</item>
+        <item>Bystolic</item>
+        <item>Calcitriol</item>
+        <item>Calcium carbonate</item>
+        <item>Carafate</item>
+        <item>Carbamazepine</item>
+        <item>Cardizem</item>
+        <item>Carvedilol</item>
+        <item>Cefdinir</item>
+        <item>Ceftriaxone</item>
+        <item>Cefuroxime</item>
+        <item>Celebrex</item>
+        <item>Celecoxib</item>
+        <item>Celexa</item>
+        <item>Cephalexin</item>
+        <item>Cetirizine</item>
+        <item>Chantix</item>
+        <item>Chlorthalidone</item>
+        <item>Cholecalciferol</item>
+        <item>Cialis</item>
+        <item>Cilostazol</item>
+        <item>Cipro</item>
+        <item>Ciprofloxacin</item>
+        <item>Citalopram</item>
+        <item>Claritin</item>
+        <item>Clindamycin</item>
+        <item>Clonazepam</item>
+        <item>Clonidine</item>
+        <item>Clopidogrel</item>
+        <item>Clotrimazole</item>
+        <item>Codeine</item>
+        <item>Colace</item>
+        <item>Colchicine</item>
+        <item>Compazine</item>
+        <item>Concerta</item>
+        <item>Coreg</item>
+        <item>Coumadin</item>
+        <item>Cozaar</item>
+        <item>Crestor</item>
+        <item>Cyanocobalamin</item>
+        <item>Cyclobenzaprine</item>
+        <item>Cymbalta</item>
+        <item>Dabigatran</item>
+        <item>Decadron</item>
+        <item>Demerol</item>
+        <item>Denosumab</item>
+        <item>Depakote</item>
+        <item>Desmopressin</item>
+        <item>Desvenlafaxine</item>
+        <item>Detrol</item>
+        <item>Dexamethasone</item>
+        <item>Dexilant</item>
+        <item>Dextroamphetamine</item>
+        <item>Dextromethorphan</item>
+        <item>Dextrose</item>
+        <item>Diazepam</item>
+        <item>Diclofenac</item>
+        <item>Diclofenac Sodium</item>
+        <item>Dicyclomine</item>
+        <item>Diflucan</item>
+        <item>Digoxin</item>
+        <item>Dilantin</item>
+        <item>Dilaudid</item>
+        <item>Diltiazem</item>
+        <item>Diovan</item>
+        <item>Diphenhydramine</item>
+        <item>Ditropan</item>
+        <item>Divalproex</item>
+        <item>Divalproex sodium</item>
+        <item>Docusate</item>
+        <item>Docusate Sodium</item>
+        <item>Domperidone</item>
+        <item>Donepezil</item>
+        <item>Doxazosin</item>
+        <item>Doxepin</item>
+        <item>Doxycycline</item>
+        <item>Dulcolax</item>
+        <item>Dulera</item>
+        <item>Duloxetine</item>
+        <item>DuoNeb</item>
+        <item>Dutasteride</item>
+        <item>Dyazide</item>
+        <item>Echinacea</item>
+        <item>Ecotrin</item>
+        <item>Edarbi</item>
+        <item>Effexor</item>
+        <item>Effexor XR</item>
+        <item>Effient</item>
+        <item>Efudex</item>
+        <item>Elavil</item>
+        <item>Eligard</item>
+        <item>Eliquis</item>
+        <item>Elmiron</item>
+        <item>Empagliflozin</item>
+        <item>Enalapril</item>
+        <item>Enbrel</item>
+        <item>Enoxaparin</item>
+        <item>Entresto</item>
+        <item>Epclusa</item>
+        <item>Ephedrine</item>
+        <item>Epinephrine</item>
+        <item>EpiPen</item>
+        <item>Eplerenone</item>
+        <item>Ergocalciferol</item>
+        <item>Ertapenem</item>
+        <item>Erythromycin</item>
+        <item>Erythromycin ophthalmic</item>
+        <item>Escitalopram</item>
+        <item>Escitalopram Oxalate</item>
+        <item>Esomeprazole</item>
+        <item>Estrace</item>
+        <item>Estradiol</item>
+        <item>Estradiol Patch</item>
+        <item>Eszopiclone</item>
+        <item>Etanercept</item>
+        <item>Etodolac</item>
+        <item>Evista</item>
+        <item>Excedrin</item>
+        <item>Exelon</item>
+        <item>Exemestane</item>
+        <item>Exforge</item>
+        <item>Ezetimibe</item>
+        <item>Famotidine</item>
+        <item>Farxiga</item>
+        <item>Felodipine</item>
+        <item>Femara</item>
+        <item>Fenofibrate</item>
+        <item>Fentanyl</item>
+        <item>Ferrous gluconate</item>
+        <item>Ferrous Sulfate</item>
+        <item>Fetzima</item>
+        <item>Fexofenadine</item>
+        <item>Finasteride</item>
+        <item>Fioricet</item>
+        <item>Fiorinal</item>
+        <item>Fish Oil</item>
+        <item>Flagyl</item>
+        <item>Flecainide</item>
+        <item>Flexeril</item>
+        <item>Flomax</item>
+        <item>Flonase</item>
+        <item>Florastor</item>
+        <item>Flovent</item>
+        <item>Flovent HFA</item>
+        <item>Fluconazole</item>
+        <item>Fludrocortisone</item>
+        <item>Fluocinonide</item>
+        <item>Fluorouracil</item>
+        <item>Fluoxetine</item>
+        <item>Fluphenazine</item>
+        <item>Fluticasone</item>
+        <item>Fluticasone nasal</item>
+        <item>Fluticasone Propionate</item>
+        <item>Fluticasone and salmeterol</item>
+        <item>Fluvoxamine</item>
+        <item>Fluzone</item>
+        <item>Focalin</item>
+        <item>Folic Acid</item>
+        <item>Forteo</item>
+        <item>Fosamax</item>
+        <item>Fosinopril</item>
+        <item>Furosemide</item>
+        <item>Gabapentin</item>
+        <item>Gabapentin Enacarbil</item>
+        <item>Galantamine</item>
+        <item>Ganciclovir</item>
+        <item>Garlic</item>
+        <item>Gas-X</item>
+        <item>GaviLyte-G</item>
+        <item>Gaviscon</item>
+        <item>Gemcitabine</item>
+        <item>Gemfibrozil</item>
+        <item>Gemzar</item>
+        <item>Gentamicin</item>
+        <item>Genvoya</item>
+        <item>Geodon</item>
+        <item>Gilenya</item>
+        <item>Ginger</item>
+        <item>Ginkgo</item>
+        <item>Ginkgo biloba</item>
+        <item>Ginseng</item>
+        <item>Gleevec</item>
+        <item>Glimepiride</item>
+        <item>Glipizide</item>
+        <item>Glipizide XL</item>
+        <item>Glucagon</item>
+        <item>Glucophage</item>
+        <item>Glucosamine</item>
+        <item>Glucosamine and Chondroitin with MSM</item>
+        <item>Glucotrol</item>
+        <item>Glyburide</item>
+        <item>Glycerin</item>
+        <item>GlycoLax</item>
+        <item>Glycopyrrolate</item>
+        <item>Glyxambi</item>
+        <item>GoLYTELY</item>
+        <item>Gralise</item>
+        <item>Granisetron</item>
+        <item>Griseofulvin</item>
+        <item>Guaiatussin AC</item>
+        <item>Guaifenesin</item>
+        <item>Guanfacine</item>
+        <item>Halcion</item>
+        <item>Haldol</item>
+        <item>Haloperidol</item>
+        <item>Harvoni</item>
+        <item>Hcg</item>
+        <item>Heparin</item>
+        <item>Heparin Sodium</item>
+        <item>Herceptin</item>
+        <item>Hibiclens</item>
+        <item>Hiprex</item>
+        <item>Horizant</item>
+        <item>Humalog</item>
+        <item>Humira</item>
+        <item>Humulin 70/30</item>
+        <item>Humulin N</item>
+        <item>Hydralazine</item>
+        <item>Hydrea</item>
+        <item>Hydrochlorothiazide</item>
+        <item>Hydrochlorothiazide and irbesartan</item>
+        <item>Hydrochlorothiazide and lisinopril</item>
+        <item>Hydrochlorothiazide and losartan</item>
+        <item>Hydrochlorothiazide and triamterene</item>
+        <item>Hydrochlorothiazide and valsartan</item>
+        <item>Hydrocodone</item>
+        <item>Hydrocodone and acetaminophen</item>
+        <item>Hydrocortisone</item>
+        <item>Hydrocortisone topical</item>
+        <item>Hydrocortone</item>
+        <item>Hydromet</item>
+        <item>Hydromorphone</item>
+        <item>Hydroxychloroquine</item>
+        <item>Hydroxychloroquine Sulfate</item>
+        <item>Hydroxyurea</item>
+        <item>Hydroxyzine</item>
+        <item>Hydroxyzine Hydrochloride</item>
+        <item>Hydroxyzine Pamoate</item>
+        <item>Hyoscyamine</item>
+        <item>Hysingla ER</item>
+        <item>Hytrin</item>
+        <item>Hyzaar</item>
+        <item>Ibandronate</item>
+        <item>Ibrance</item>
+        <item>Ibuprofen</item>
+        <item>Ibuprofen PM</item>
+        <item>Imatinib</item>
+        <item>Imbruvica</item>
+        <item>Imdur</item>
+        <item>Imipramine</item>
+        <item>Imiquimod</item>
+        <item>Imitrex</item>
+        <item>Imodium</item>
+        <item>Imodium A-D</item>
+        <item>Imuran</item>
+        <item>Incruse Ellipta</item>
+        <item>Indapamide</item>
+        <item>Inderal</item>
+        <item>Indocin</item>
+        <item>Indomethacin</item>
+        <item>Infliximab</item>
+        <item>Insulin</item>
+        <item>Insulin aspart</item>
+        <item>Insulin glargine</item>
+        <item>Insulin lispro</item>
+        <item>Intuniv</item>
+        <item>Invega</item>
+        <item>Invega Sustenna</item>
+        <item>Invokamet</item>
+        <item>Invokana</item>
+        <item>Ipratropium</item>
+        <item>Ipratropium Bromide</item>
+        <item>Ipratropium Inhalation Solution</item>
+        <item>Irbesartan</item>
+        <item>Isoniazid</item>
+        <item>Isordil</item>
+        <item>Isosorbide</item>
+        <item>Isosorbide dinitrate</item>
+        <item>Isosorbide mononitrate</item>
+        <item>Isotretinoin</item>
+        <item>Itraconazole</item>
+        <item>Ivermectin</item>
+        <item>Jadenu</item>
+        <item>Jakafi</item>
+        <item>Jalyn</item>
+        <item>Jantoven</item>
+        <item>Janumet</item>
+        <item>Janumet XR</item>
+        <item>Januvia</item>
+        <item>Jardiance</item>
+        <item>Jencycla</item>
+        <item>Jentadueto</item>
+        <item>Jentadueto XR</item>
+        <item>Jevtana</item>
+        <item>Jinteli</item>
+        <item>Jolessa</item>
+        <item>Jolivette</item>
+        <item>Jublia</item>
+        <item>Juleber</item>
+        <item>Juluca</item>
+        <item>Junel</item>
+        <item>Junel 1/20</item>
+        <item>Junel Fe 1/20</item>
+        <item>Junel Fe 1.5/30</item>
+        <item>Junel Fe 24</item>
+        <item>Juvederm</item>
+        <item>Juvisync</item>
+        <item>Juxtapid</item>
+        <item>Jynarque</item>
+        <item>Kadcyla</item>
+        <item>Kadian</item>
+        <item>Kaletra</item>
+        <item>Kanamycin</item>
+        <item>Kaopectate</item>
+        <item>Kapvay</item>
+        <item>Kayexalate</item>
+        <item>Kcentra</item>
+        <item>K-Dur</item>
+        <item>Keflex</item>
+        <item>Kenalog</item>
+        <item>Kenalog-40</item>
+        <item>Keppra</item>
+        <item>Keppra XR</item>
+        <item>Kerydin</item>
+        <item>Ketamine</item>
+        <item>Ketoconazole</item>
+        <item>Ketoconazole topical</item>
+        <item>Ketoprofen</item>
+        <item>Ketorolac</item>
+        <item>Ketorolac ophthalmic</item>
+        <item>Ketorolac Tromethamine</item>
+        <item>Ketotifen</item>
+        <item>Ketotifen ophthalmic</item>
+        <item>Kevzara</item>
+        <item>Keytruda</item>
+        <item>Kineret</item>
+        <item>Kionex</item>
+        <item>Kisqali</item>
+        <item>Klonopin</item>
+        <item>Klor-Con</item>
+        <item>Kombiglyze XR</item>
+        <item>Konsyl</item>
+        <item>Korlym</item>
+        <item>Kratom</item>
+        <item>Krill Oil</item>
+        <item>K-Tab</item>
+        <item>Kyleena</item>
+        <item>Kyprolis</item>
+        <item>Kytril</item>
+        <item>Labetalol</item>
+        <item>Lactulose</item>
+        <item>Lamictal</item>
+        <item>Lamotrigine</item>
+        <item>Lansoprazole</item>
+        <item>Lantus</item>
+        <item>Lasix</item>
+        <item>Latanoprost</item>
+        <item>Latuda</item>
+        <item>Leflunomide</item>
+        <item>Letrozole</item>
+        <item>Levaquin</item>
+        <item>Levemir</item>
+        <item>Levetiracetam</item>
+        <item>Levocetirizine</item>
+        <item>Levofloxacin</item>
+        <item>Levothyroxine</item>
+        <item>Lexapro</item>
+        <item>Lidocaine</item>
+        <item>Linzess</item>
+        <item>Lipitor</item>
+        <item>Lisinopril</item>
+        <item>Lithium</item>
+        <item>Livalo</item>
+        <item>Lomotil</item>
+        <item>Loperamide</item>
+        <item>Lopressor</item>
+        <item>Loratadine</item>
+        <item>Lorazepam</item>
+        <item>Lortab</item>
+        <item>Losartan</item>
+        <item>Losartan Potassium</item>
+        <item>Lotrisone</item>
+        <item>Lovastatin</item>
+        <item>Lovaza</item>
+        <item>Lovenox</item>
+        <item>Lumigan</item>
+        <item>Lunesta</item>
+        <item>Lupron</item>
+        <item>Lyrica</item>
+        <item>Macrobid</item>
+        <item>Magnesium</item>
+        <item>Magnesium oxide</item>
+        <item>Meclizine</item>
+        <item>Medrol</item>
+        <item>Medrol Dosepak</item>
+        <item>Melatonin</item>
+        <item>Meloxicam</item>
+        <item>Memantine</item>
+        <item>Mesalamine</item>
+        <item>Metamucil</item>
+        <item>Metformin</item>
+        <item>Methadone</item>
+        <item>Methimazole</item>
+        <item>Methocarbamol</item>
+        <item>Methotrexate</item>
+        <item>Methylphenidate</item>
+        <item>Methylprednisolone</item>
+        <item>MethylPREDNISolone Dose Pack</item>
+        <item>Metoclopramide</item>
+        <item>Metolazone</item>
+        <item>Metoprolol</item>
+        <item>Metoprolol Succinate</item>
+        <item>Metoprolol Succinate ER</item>
+        <item>Metoprolol Tartrate</item>
+        <item>Metronidazole</item>
+        <item>Midazolam</item>
+        <item>Midodrine</item>
+        <item>Minocycline</item>
+        <item>MiraLax</item>
+        <item>Mirapex</item>
+        <item>Mirtazapine</item>
+        <item>Mobic</item>
+        <item>Modafinil</item>
+        <item>Montelukast</item>
+        <item>Morphine</item>
+        <item>Motrin</item>
+        <item>Mucinex</item>
+        <item>Mupirocin topical</item>
+        <item>Myrbetriq</item>
+        <item>Nabumetone</item>
+        <item>Nadolol</item>
+        <item>Naloxone</item>
+        <item>Naltrexone</item>
+        <item>Namenda</item>
+        <item>Namzaric</item>
+        <item>Naprosyn</item>
+        <item>Naproxen</item>
+        <item>Narcan</item>
+        <item>Nasacort</item>
+        <item>Nasonex</item>
+        <item>Nateglinide</item>
+        <item>Nebivolol</item>
+        <item>Neomycin</item>
+        <item>Neosporin</item>
+        <item>Neulasta</item>
+        <item>Neupogen</item>
+        <item>Neurontin</item>
+        <item>Nexium</item>
+        <item>Nexplanon</item>
+        <item>Niacin</item>
+        <item>Niaspan</item>
+        <item>Nicotine</item>
+        <item>Nifedical XL</item>
+        <item>Nifedipine</item>
+        <item>Nitrofurantoin</item>
+        <item>Nitroglycerin</item>
+        <item>Nitrostat</item>
+        <item>Nivolumab</item>
+        <item>Norco</item>
+        <item>Norethindrone</item>
+        <item>Norflex</item>
+        <item>Nortriptyline</item>
+        <item>Norvasc</item>
+        <item>NovoLog</item>
+        <item>Nucynta</item>
+        <item>Nuedexta</item>
+        <item>Nuvigil</item>
+        <item>Nystatin</item>
+        <item>Nystatin topical</item>
+        <item>Ocrevus</item>
+        <item>Octreotide</item>
+        <item>Ocuvite</item>
+        <item>Ofev</item>
+        <item>Ofloxacin</item>
+        <item>Ofloxacin ophthalmic</item>
+        <item>Olanzapine</item>
+        <item>Olmesartan</item>
+        <item>Olopatadine nasal</item>
+        <item>Olopatadine ophthalmic</item>
+        <item>Omalizumab</item>
+        <item>Omeprazole</item>
+        <item>Omnicef</item>
+        <item>Ondansetron</item>
+        <item>Onfi</item>
+        <item>Onglyza</item>
+        <item>Onivyde</item>
+        <item>Opana</item>
+        <item>Opdivo</item>
+        <item>Opsumit</item>
+        <item>Orencia</item>
+        <item>Orlistat</item>
+        <item>Orphenadrine</item>
+        <item>Ortho Tri-Cyclen</item>
+        <item>Oseltamivir</item>
+        <item>Osteo Bi-Flex</item>
+        <item>Otezla</item>
+        <item>Oxaliplatin</item>
+        <item>Oxazepam</item>
+        <item>Oxcarbazepine</item>
+        <item>Oxybutynin</item>
+        <item>Oxybutynin Chloride</item>
+        <item>Oxycodone</item>
+        <item>Oxycodone Hydrochloride</item>
+        <item>Oxycontin</item>
+        <item>Oxygen</item>
+        <item>Oxymetazoline nasal</item>
+        <item>Oxymorphone</item>
+        <item>Oxytocin</item>
+        <item>Ozempic</item>
+        <item>Pantoprazole</item>
+        <item>Paracetamol</item>
+        <item>Paroxetine</item>
+        <item>Paxil</item>
+        <item>Pepcid</item>
+        <item>Percocet</item>
+        <item>Phenazopyridine</item>
+        <item>Phenergan</item>
+        <item>Phenobarbital</item>
+        <item>Phentermine</item>
+        <item>Phenytoin</item>
+        <item>Pioglitazone</item>
+        <item>Plaquenil</item>
+        <item>Plavix</item>
+        <item>Polyethylene glycol 3350</item>
+        <item>Potassium Chloride</item>
+        <item>Pradaxa</item>
+        <item>Pramipexole</item>
+        <item>Pravachol</item>
+        <item>Pravastatin</item>
+        <item>Prazosin</item>
+        <item>Prednisolone</item>
+        <item>Prednisone</item>
+        <item>Pregabalin</item>
+        <item>Premarin</item>
+        <item>Prevacid</item>
+        <item>Prilosec</item>
+        <item>Primidone</item>
+        <item>Pristiq</item>
+        <item>ProAir HFA</item>
+        <item>Prochlorperazine</item>
+        <item>Progesterone</item>
+        <item>Prolia</item>
+        <item>Promethazine</item>
+        <item>Propranolol</item>
+        <item>Proscar</item>
+        <item>Protonix</item>
+        <item>Prozac</item>
+        <item>Pseudoephedrine</item>
+        <item>Pyridium</item>
+        <item>Qbrelis</item>
+        <item>Qbrexza</item>
+        <item>QNASL</item>
+        <item>Q-Pap</item>
+        <item>Qsymia</item>
+        <item>Qtern</item>
+        <item>Qualaquin</item>
+        <item>Quartette</item>
+        <item>Quasense</item>
+        <item>Quazepam</item>
+        <item>Qudexy XR</item>
+        <item>Quercetin</item>
+        <item>Questran</item>
+        <item>Questran Light</item>
+        <item>Quetiapine</item>
+        <item>Quetiapine Fumarate</item>
+        <item>QuilliChew ER</item>
+        <item>Quillivant XR</item>
+        <item>Quinapril</item>
+        <item>Quinapril Hydrochloride</item>
+        <item>Quinapril and Hydrochlorothiazide</item>
+        <item>Quinaretic</item>
+        <item>Quinidine</item>
+        <item>Quinidine Sulfate</item>
+        <item>Quinine</item>
+        <item>Quinine Sulfate</item>
+        <item>Quinja</item>
+        <item>Qutenza</item>
+        <item>Qvar</item>
+        <item>Qvar Redihaler</item>
+        <item>Rabeprazole</item>
+        <item>Raloxifene</item>
+        <item>Ramipril</item>
+        <item>Ranexa</item>
+        <item>Ranitidine</item>
+        <item>Ranolazine</item>
+        <item>Rapaflo</item>
+        <item>Reclast</item>
+        <item>Red yeast rice</item>
+        <item>Reglan</item>
+        <item>Relafen</item>
+        <item>Relpax</item>
+        <item>Remeron</item>
+        <item>Remicade</item>
+        <item>Renvela</item>
+        <item>Repaglinide</item>
+        <item>Repatha</item>
+        <item>Requip</item>
+        <item>Restasis</item>
+        <item>Restoril</item>
+        <item>Revlimid</item>
+        <item>Rexulti</item>
+        <item>Rifampin</item>
+        <item>Rifaximin</item>
+        <item>Risedronate</item>
+        <item>Risperdal</item>
+        <item>Risperidone</item>
+        <item>Ritalin</item>
+        <item>Rituxan</item>
+        <item>Rituximab</item>
+        <item>Rivaroxaban</item>
+        <item>Rivastigmine</item>
+        <item>Rizatriptan</item>
+        <item>Robaxin</item>
+        <item>Robitussin</item>
+        <item>Rocephin</item>
+        <item>Ropinirole</item>
+        <item>Rosuvastatin</item>
+        <item>Roxicodone</item>
+        <item>RozeremSalbutamol</item>
+        <item>Savella</item>
+        <item>Saw Palmetto</item>
+        <item>Saxenda</item>
+        <item>Scopolamine</item>
+        <item>Selenium</item>
+        <item>Senna</item>
+        <item>Senokot</item>
+        <item>Sensipar</item>
+        <item>Seroquel</item>
+        <item>Sertraline</item>
+        <item>Shingrix</item>
+        <item>Sildenafil</item>
+        <item>Simethicone</item>
+        <item>Simvastatin</item>
+        <item>Sinemet</item>
+        <item>Singulair</item>
+        <item>Sitagliptin</item>
+        <item>Skelaxin</item>
+        <item>Sodium bicarbonate</item>
+        <item>Sodium chloride</item>
+        <item>Solifenacin</item>
+        <item>Solu-Medrol</item>
+        <item>Soma</item>
+        <item>Sotalol</item>
+        <item>Spiriva</item>
+        <item>Spironolactone</item>
+        <item>Stelara</item>
+        <item>Stiolto Respimat</item>
+        <item>Strattera</item>
+        <item>Suboxone</item>
+        <item>Subutex</item>
+        <item>Sucralfate</item>
+        <item>Sudafed</item>
+        <item>Sulfamethoxazole and trimethoprim</item>
+        <item>Sulfasalazine</item>
+        <item>Sumatriptan</item>
+        <item>Symbicort</item>
+        <item>Synthroid</item>
+        <item>Systane</item>
+        <item>Tacrolimus</item>
+        <item>Tadalafil</item>
+        <item>Tamiflu</item>
+        <item>Tamoxifen</item>
+        <item>Tamsulosin</item>
+        <item>Tegretol</item>
+        <item>Telmisartan</item>
+        <item>Temazepam</item>
+        <item>Terazosin</item>
+        <item>Terbinafine</item>
+        <item>Tessalon Perles</item>
+        <item>Testosterone</item>
+        <item>Theophylline</item>
+        <item>Thiamine</item>
+        <item>Ticagrelor</item>
+        <item>Timolol</item>
+        <item>Tiotropium</item>
+        <item>Tizanidine</item>
+        <item>Tolterodine</item>
+        <item>Topamax</item>
+        <item>Topiramate</item>
+        <item>Toprol XL</item>
+        <item>Toradol</item>
+        <item>Torsemide</item>
+        <item>Tradjenta</item>
+        <item>Tramadol</item>
+        <item>Travatan</item>
+        <item>Trazodone</item>
+        <item>Tresiba</item>
+        <item>Triamcinolone</item>
+        <item>Triamterene</item>
+        <item>Tricor</item>
+        <item>Trileptal</item>
+        <item>Trimethoprim</item>
+        <item>Trintellix</item>
+        <item>Trulicity</item>
+        <item>Truvada</item>
+        <item>Turmeric</item>
+        <item>Tylenol</item>
+        <item>Tylenol with Codeine #3</item>
+        <item>Ubiquinone</item>
+        <item>Uceris</item>
+        <item>Ulipristal</item>
+        <item>Ulipristal Acetate</item>
+        <item>Uloric</item>
+        <item>Ultane</item>
+        <item>Ultomiris</item>
+        <item>Ultracet</item>
+        <item>Ultram</item>
+        <item>Ultram ER</item>
+        <item>Ultravate</item>
+        <item>Umeclidinium</item>
+        <item>Umeclidinium Bromide</item>
+        <item>Umeclidinium and vilanterol</item>
+        <item>Unasyn</item>
+        <item>Undecylenic acid topical</item>
+        <item>Uniphyl</item>
+        <item>Unisom</item>
+        <item>Unithroid</item>
+        <item>Univasc</item>
+        <item>Uptravi</item>
+        <item>Urea topical</item>
+        <item>Urecholine</item>
+        <item>Ure-Na</item>
+        <item>Urex</item>
+        <item>Uribel</item>
+        <item>Uricalm</item>
+        <item>Urin D/S</item>
+        <item>Urispas</item>
+        <item>Uristat</item>
+        <item>Urocit-K</item>
+        <item>Urofollitropin</item>
+        <item>Urogesic-Blue</item>
+        <item>Urokinase</item>
+        <item>Uro-MP</item>
+        <item>Uroxatral</item>
+        <item>Urso</item>
+        <item>Ursodiol</item>
+        <item>Ustekinumab</item>
+        <item>Utibron Neohaler</item>
+        <item>Vagifem</item>
+        <item>Valacyclovir</item>
+        <item>Valium</item>
+        <item>Valproate Sodium</item>
+        <item>Valproic acid</item>
+        <item>Valsartan</item>
+        <item>Valtrex</item>
+        <item>Vancomycin</item>
+        <item>Varenicline</item>
+        <item>Vascepa</item>
+        <item>Vasotec</item>
+        <item>Velcade</item>
+        <item>Venlafaxine</item>
+        <item>Ventolin</item>
+        <item>Ventolin HFA</item>
+        <item>Verapamil</item>
+        <item>Versed</item>
+        <item>Vesicare</item>
+        <item>Viagra</item>
+        <item>Viberzi</item>
+        <item>Vibramycin</item>
+        <item>Vicodin</item>
+        <item>Victoza</item>
+        <item>Viibryd</item>
+        <item>Vimovo</item>
+        <item>Vimpat</item>
+        <item>Vistaril</item>
+        <item>Vitamin B 12</item>
+        <item>Vitamin C</item>
+        <item>Vitamin D</item>
+        <item>Vitamin D2</item>
+        <item>Vitamin D3</item>
+        <item>Vitamin E</item>
+        <item>Vivitrol</item>
+        <item>Voltaren</item>
+        <item>Voltaren Gel</item>
+        <item>Vortioxetine</item>
+        <item>Vraylar</item>
+        <item>Vytorin</item>
+        <item>Vyvanse</item>
+        <item>Warfarin</item>
+        <item>Warfarin Sodium</item>
+        <item>Wart Remover</item>
+        <item>Welchol</item>
+        <item>Wellbutrin</item>
+        <item>Wellbutrin SR</item>
+        <item>Wellbutrin XL</item>
+        <item>Wellcovorin</item>
+        <item>Westcort</item>
+        <item>Westhroid</item>
+        <item>Wild yam</item>
+        <item>Willow Bark</item>
+        <item>WinRho SDF</item>
+        <item>Witch Hazel</item>
+        <item>WP Thyroid</item>
+        <item>Wymzya FE</item>
+        <item>Xadago</item>
+        <item>Xalatan</item>
+        <item>Xalkori</item>
+        <item>Xanax</item>
+        <item>Xanax XR</item>
+        <item>Xarelto</item>
+        <item>Xeljanz</item>
+        <item>Xeljanz XR</item>
+        <item>Xeloda</item>
+        <item>Xenazine</item>
+        <item>Xenical</item>
+        <item>Xeomin</item>
+        <item>Xermelo</item>
+        <item>Xgeva</item>
+        <item>Xhance</item>
+        <item>Xiaflex</item>
+        <item>Xifaxan</item>
+        <item>Xigduo XR</item>
+        <item>Xigris</item>
+        <item>Xiidra</item>
+        <item>Xodol</item>
+        <item>Xofigo</item>
+        <item>Xofluza</item>
+        <item>Xolair</item>
+        <item>Xolegel</item>
+        <item>Xopenex</item>
+        <item>Xopenex HFA</item>
+        <item>Xtampza ER</item>
+        <item>Xtandi</item>
+        <item>Xulane</item>
+        <item>Xultophy</item>
+        <item>XyliMelts</item>
+        <item>Xylitol</item>
+        <item>Xylocaine</item>
+        <item>Xylocaine Jelly</item>
+        <item>Xylometazoline</item>
+        <item>Xylometazoline nasal</item>
+        <item>Xyntha</item>
+        <item>Xyrem</item>
+        <item>Xyzal</item>
+        <item>Yasmin</item>
+        <item>Yasmin 28</item>
+        <item>Yaz</item>
+        <item>Yellow fever vaccine</item>
+        <item>Yervoy</item>
+        <item>Yescarta</item>
+        <item>Yogurt</item>
+        <item>Yohimbe</item>
+        <item>Yohimbine</item>
+        <item>Yondelis</item>
+        <item>Yonsa</item>
+        <item>Yosprala</item>
+        <item>Yupelri</item>
+        <item>Yuvafem</item>
+        <item>Zaditor</item>
+        <item>Zafirlukast</item>
+        <item>Zaleplon</item>
+        <item>Zanaflex</item>
+        <item>Zantac</item>
+        <item>Zaroxolyn</item>
+        <item>Zebeta</item>
+        <item>Zegerid</item>
+        <item>Zenpep</item>
+        <item>Zestoretic</item>
+        <item>Zestril</item>
+        <item>Zetia</item>
+        <item>Ziac</item>
+        <item>Zidovudine</item>
+        <item>Zinc</item>
+        <item>Ziprasidone</item>
+        <item>Zithromax</item>
+        <item>Zocor</item>
+        <item>Zofran</item>
+        <item>Zofran ODT</item>
+        <item>Zoladex</item>
+        <item>Zoledronic acid</item>
+        <item>Zolmitriptan</item>
+        <item>Zoloft</item>
+        <item>Zolpidem</item>
+        <item>Zolpidem Tartrate</item>
+        <item>Zometa</item>
+        <item>Zomig</item>
+        <item>Zonegran</item>
+        <item>Zonisamide</item>
+        <item>Zostavax</item>
+        <item>Zosyn</item>
+        <item>Zovirax</item>
+        <item>Zubsolv</item>
+        <item>Zyban</item>
+        <item>Zyloprim</item>
+        <item>Zyprexa</item>
+        <item>Zyrtec</item>
+        <item>Zytiga</item>
+        <item>Zyvox</item>
+    </string-array>
+    <string name="get_to_the_nearest_hospital">Get to the nearest hospital</string>
+    <string name="call_108">Call Emergency services</string>
+    <string name="doctor">Doctor details</string>
+    <string name="first_aid_info">First aid info</string>
+    <string name="search">Search…</string>
+    <string name="conditions">Conditions</string>
+    <string name="symptom_subtitle">Prevention, better than cure</string>
+    <string name="first_aid_subtitle">You can save a life</string>
+  <string name="about_the_app">About the App</string>
+    <string name="about_the_app_details">
+        MediFriend is a medical app designed to fulfil all your medical needs.
+        \n\nThis app packs the following features:
+        \n\t\t•\tSymptom checker
+        \n\t\t•\tConditions checker
+        \n\t\t•\tFirst aid information
+        \n\t\t•\tReports Storage
+        \n\t\t•\tMedicine reminders
+        \n\t\t•\tCancer Scanners
+        \n\t\t•\tEmergency Services
+        \n\t\t•\tMedical News
+        \n\t\t•\tNearest Hospitals Locator
+    </string>
+    <string name="symptom_checker">Symptom Checker</string>
+    <string name="symptom_checker_details">Check symptoms and view possible conditions by choosing your concerned body part.</string>
+    <string name="first_aid_info_details">Get all the first aid information you need, right under your fingertips.</string>
+    <!--<string name="meddical_services">Medical Services</string>-->
+    <string name="find_nearby_doctors_details">Find the registered doctors within 10 Km (6 miles) around you.
+        \n\nClick on a Marker to view the doctor\'s details, such as the phone number, address, location and website</string>
+    <string name="find_nearby_hospitals_details">Find the registered hospitals within 10 Km (6 miles) around you.
+        \n\nClick on a Marker to view the hospital\'s details, such as the phone number, address, location and website</string>
+    <string name="get_to_nearest_hospital_details">Get directions to the registered hospital nearest to you.
+        \n(uses Google Maps)</string>
+    <string name="get_to_nearest_doctor_details">Get directions to the registered doctor nearest to you.
+        \n(uses Google Maps)</string>
+    <string name="call_emergency_services_details">Call your national Emergency number in one click,
+        wherever you see the circular call button with a cross inside.</string>
+    <string name="medifriend">MediFriend</string>
+    <string name="home_subtitle">Prevention, Better than Cure</string>
+    <string name="visit_us_at">Visit us at:</string>
+    <string name="tell_us_what_you_d_like_to_search_for">Tell us what you\'d like to search for</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_denied">I won\'t be able to assist you if you dont\'t let me.</string>
+    <string name="show_selected_symptoms">Show selected symptoms</string>
+    <string name="clear_all_selected_symptoms">Clear all selected symptoms</string>
+    <string name="selection_cleared">Selection cleared!</string>
+    <string name="disclaimer_conditions">
+        Based on the symptoms you entered, we have calculated matches for possible conditions.
+        The conditions are listed in order of how closely your symptoms match those conditions.
+        This information is meant to be informational, and is not intended as medical advice or a diagnosis.
+        Information you read here should not replace the advice of your healthcare provider.
+        You should always seek the advice of a qualified healthcare provider about any questions you may have about a medical condition.
+        As always, if you think you have a medical emergency you should call your doctor or the emergency services immediately.
+    </string>
+    <string name="possible_conditions">Possible conditions</string>
+    <string name="show_selected_symptoms_header">Select a symptom to view its possible conditions\nOr click the button below to view the possible conditions for all the selected symptoms.</string>
+    <string name="change_text_size">Change text size</string>
+    <string name="always_improving">Always improving</string>
+    <string name="show_nearby_hospitals">Show nearby hospitals</string>
+    <string name="place_details">Place details</string>
+    <string name="address">Address</string>
+    <string name="website">Website</string>
+    <string name="url">URL</string>
+    <string name="photo">Photo</string>
+    <string name="phone_number_not_available">Phone number not available</string>
+    <string name="rating">Rating</string>
+    <string name="nearby_hospitals">Nearby hospitals</string>
+    <string name="nearby_doctors">Nearby Doctors</string>
+    <string name="nearest_hospital">Nearest Hospital</string>
+    <string name="call_emergency_services">Call Emergency services</string>
+    <string name="emergency_number">Emergency number</string>
+    <string name="or_call_emergency_services">OR CALL EMERGENCY SERVICES</string>
+    <string name="get_to_the_nearest_doctor">Get to the nearest doctor</string>
+    <string name="nearest_doctor">Nearest Doctor</string>
+    <string name="sorry">Sorry</string>
+    <string name="find_nearby_hospitals">Find nearby hospitals</string>
+    <string name="find_nearby_doctors">Find nearby doctors</string>
+    <string name="permission_granted">Permission Granted, Now you can use all the features!</string>
+    <string name="info">Info</string>
+    <string name="browse_all_conditions">Browse all conditions</string>
+    <string name="not_connected">Not Connected!</string>
+    <string name="not_connected_message">This app could not get Internet connectivity. Please make sure you are connected to the Internet.</string>
+    <string name="okay">Okay</string>
+    <string name="news_subtitle">Never Miss an Update</string>
+    <string name="news_info">News</string>
+    <string name="check_subtitles">Check your Symptoms</string>
+    <string name="maps">Maps</string>
+    <string name="slogan">Always By Your Side...</string>
+    <string name="conditions_info_details">Choose a condition and view all the possible symptoms associated with that condition.</string>
+    <string name="conditions_info">Conditions Info</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDOdoXcVbVwGvVqUBiBM3TNDWhBe69Jl0U</string>
+
+</resources>

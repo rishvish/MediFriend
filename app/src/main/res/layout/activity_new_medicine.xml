@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".reminders.MedicineDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerz"
+    android:background="@drawable/gradient"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:padding="@dimen/activity_vertical_margin"
+
+        >
+
+
+        <TextView
+
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medicine Name"
+            android:id="@+id/MedicineName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:typeface="serif"/>
+
+        <AutoCompleteTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Name_medicine"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/Medicine_type"
+            android:text="Medicine Type"
+            />
+
+        <RadioGroup
+            android:id="@+id/radiogp"
+            android:layout_width="303dp"
+            android:layout_height="51dp"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/injection_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Injection"
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/Oral_drug_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oral Tablet"
+                android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Start Date"
+            android:id="@+id/Start_date"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/date_start"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal"
+            android:text="Click to choose Date"
+            android:textSize="20sp"
+            android:clickable="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Start Time"
+            android:id="@+id/Start_Time"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/timeStart"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal"
+            android:text="Click to choose Time"
+            android:textSize="20sp"
+            android:clickable="true"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Number of doses"
+            android:id="@+id/dosage"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/dosage_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Frequency"
+            android:id="@+id/frequency"
+            />
+
+        <RadioGroup
+            android:id="@+id/radiogpfreq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_weight="0.34">
+
+            <RadioButton android:id="@+id/button_once"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One Time"
+                android:onClick="onRadioButtonFreqClicked"/>
+
+            <RadioButton android:id="@+id/button_4H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every 4 Hours"
+                android:onClick="onRadioButtonFreqClicked"/>
+
+            <RadioButton android:id="@+id/button_6H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every 6 Hours"
+                android:onClick="onRadioButtonFreqClicked"/>
+            <RadioButton android:id="@+id/button_8H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every 8 Hours"
+                android:onClick="onRadioButtonFreqClicked"/>
+            <RadioButton android:id="@+id/button_12H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every 12 Hours"
+                android:onClick="onRadioButtonFreqClicked"/>
+            <RadioButton android:id="@+id/button_24H"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every 24 Hours"
+                android:onClick="onRadioButtonFreqClicked"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Next Doctor Appointment"
+            android:id="@+id/Doc_app"
+
+            android:clickable="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/Doc_app_date"
+            android:onClick="onClick"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="Choose next Doctor Appointement"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp">
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/oval"
+                android:text="Save"
+                android:elevation="10dp"
+                android:id="@+id/savebutton"
+                android:textColor="#FFFFFF" />
+
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/oval"
+                android:id="@+id/clearbutton"
+                android:text="Clear"
+                android:elevation="10dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="right|top" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

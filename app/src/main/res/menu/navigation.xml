@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_by_home"
+        android:icon="@drawable/home_nav"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_by_news"
+        android:icon="@drawable/news_nav"
+        android:title="News"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_by_maps"
+        android:icon="@drawable/maps_nav"
+        android:title="@string/maps"
+        app:showAsAction="always" />
+
+</menu>

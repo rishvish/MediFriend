@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+
+    android:weightSum="1"
+    android:padding="@dimen/activity_vertical_margin"
+    >
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/pillsreminder"
+        />
+
+    <TextView
+        android:id="@+id/list_item_medicine_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+        android:layout_weight="0.75" />
+
+    <TextView
+        android:id="@+id/list_item_medicine_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:textSize="20dp"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marker_place_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+    android:background="@drawable/map_marker_details"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:drawableStart="@drawable/ic_details"
+    android:textColor="@color/white_text_icons"
+    android:textSize="18sp"/>

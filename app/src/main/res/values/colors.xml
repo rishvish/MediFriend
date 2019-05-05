@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#36a092</color>
+    <color name="background">#338fb1</color>
+    <color name="grey">#242c2f</color>
+    <color name="colorPrimaryLight">#FFAB91</color>
+    <color name="colorPrimaryLighter">#FFE0B2</color>
+    <color name="colorSecondary">#00BCD4</color>
+    <color name="colorSecondaryDark">#00a5bb</color>
+    <color name="colorSecondaryTranslucent">#d700bcd4</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDisabled">#E0E0E0</color>
+    <color name="colorDisabledLight">#EEEEEE</color>
+    <color name="colorDivider">#bdbdbd</color>
+    <color name="colorDividerLight">#cfd8dc</color>
+    <color name="white_text_icons">#FFFFFF</color>
+    <color name="colorAccent">#7C4DFF</color>
+    <color name="colorLink">#42a5f5</color>
+    <color name="colorFabNormal">#e53935</color>
+    <color name="colorFabPressed">#ef5350</color>
+    <color name="colorRipple">#99FFFFFF</color>
+    <color name="colorDarkPrimaryDark">#212121</color>
+    <color name="text_grey_light_primary">#fafafa</color>
+    <color name="main_background">#f5f5f5</color>
+    <color name="secondary_text">#757575</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

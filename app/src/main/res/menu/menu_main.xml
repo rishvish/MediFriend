@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_info"
+        android:title="About"
+        />
+    <item
+        android:id="@+id/action_contact"
+        android:icon="@drawable/ic_info"
+        android:title="Contact"
+        />
+
+    <item
+        android:id="@+id/action_signOut"
+        android:icon="@drawable/ic_info"
+        android:title="@string/Sign_Out_Button"
+        />
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/pillsimage"/>
+
+
+    <TextView
+        android:id="@+id/list_item_medicine_name"
+        android:layout_width="175dp"
+        android:layout_height="37dp"
+
+        android:textSize="20dp"
+        android:layout_weight="0.29" />
+
+
+
+    <!--<ImageButton-->
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:background="@drawable/oval"-->
+    <!--android:src="@drawable/deletebutton"-->
+    <!--/>-->
+
+
+</LinearLayout>

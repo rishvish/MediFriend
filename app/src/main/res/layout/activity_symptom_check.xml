@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.rishabhvishwakarma.medifriend.medical.SymptomCheck">
+
+    <include layout="@layout/recycler_view"/>
+
+    <FrameLayout
+        android:id="@+id/symptom_check_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_2_delete_all_symptoms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:clickable="true"
+            android:longClickable="true"
+            app:backgroundTint="@color/colorFabNormal"
+            app:rippleColor="@color/colorRipple"
+            android:src="@drawable/ic_delete_sweep"
+            tools:ignore="VectorDrawableCompat" />
+
+        <Space
+            android:id="@+id/fab_space"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_1_show_selected_symptoms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:clickable="true"
+            android:longClickable="true"
+            app:backgroundTint="@color/colorFabNormal"
+            app:rippleColor="@color/colorRipple"
+            android:src="@drawable/ic_next"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/fab_revealView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="28sp"
+                android:textColor="@color/white_text_icons"
+                android:text="@string/selection_cleared"/>
+
+        </FrameLayout>
+
+    </io.codetail.widget.RevealFrameLayout>
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/fab_show_revealView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </io.codetail.widget.RevealFrameLayout>
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/fab_show_conditions_revealView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </io.codetail.widget.RevealFrameLayout>
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/fab_condition_details_revealView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </io.codetail.widget.RevealFrameLayout>
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/menu_fragment_container"
+            android:background="@drawable/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </io.codetail.widget.RevealFrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
